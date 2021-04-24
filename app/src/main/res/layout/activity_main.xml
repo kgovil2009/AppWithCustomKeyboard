@@ -48,6 +48,15 @@
         android:visibility="invisible"
         android:typeface="monospace" />
 
+    <Button
+        android:id="@+id/new_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New String!"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        />
 
 
     <TextView
@@ -55,12 +64,13 @@
         android:id="@+id/text_view_id"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="150dp"
         android:background="#FFC107"
         android:gravity="center"
         android:textStyle="italic"
         android:typeface="monospace"
-        android:text="@string/type_test" />
+        android:text="@string/type_test"
+        android:visibility="invisible"/>
 
 
     <com.example.customkeyboard.MyKeyboard
