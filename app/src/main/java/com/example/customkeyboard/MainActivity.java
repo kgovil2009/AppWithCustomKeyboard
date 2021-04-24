@@ -105,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 finalData.setVisibility(View.INVISIBLE);
                 finalErrorData.setVisibility(View.INVISIBLE);
                 newStringButton.setVisibility(View.INVISIBLE);
+                finalErrorData.setText("0");
             }
         });
 
