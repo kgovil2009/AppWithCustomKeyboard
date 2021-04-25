@@ -348,7 +348,7 @@ public class MyKeyboard extends LinearLayout implements View.OnClickListener {
         keyValues.put(R.id.button_sym1, "?");
         keyValues.put(R.id.button_sym2, ".");
         keyValues.put(R.id.button_sym3, ",");
-        keyValues.put(R.id.button_sym4, "_");
+        keyValues.put(R.id.button_sym4, "#");
         keyValues.put(R.id.button_sym5, "&");
         keyValues.put(R.id.button_sym6, "%");
         keyValues.put(R.id.button_sym7, "$");

@@ -4,11 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.os.IBinder;
+import android.text.Editable;
 import android.text.InputType;
 import android.util.AttributeSet;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -72,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                editText.setText("");
                 startTime[0] = System.currentTimeMillis();
 
                 if(dataToType.getVisibility() == View.INVISIBLE)
@@ -89,7 +94,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 endTime[0] = System.currentTimeMillis();
                 timeTaken[0] = endTime[0] - startTime[0];
-                dataToBeDisplayed[0] = "Time Taken: " + timeTaken[0]/1000.0 + "s";
+
+                //to calculate words per minute speed of typing
+                Editable wordsPerMinuteData = typedData.getText();
+
+                int typingSpeed = (int) ((wordsPerMinuteData.length()/5)/(timeTaken[0]/60000.0));
+
+                dataToBeDisplayed[0] = "Time Taken: " + timeTaken[0]/1000.0 + "s" + "\n" + "Typing Speed: " + typingSpeed + "WPM";
+
                 finalData.setVisibility(View.VISIBLE);
                 finalData.setText(dataToBeDisplayed[0]);
                 finalErrorData.setVisibility(View.VISIBLE);
@@ -109,6 +121,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        editText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.toggleSoftInput(InputMethodManager.SHOW_FORCED,0);
+            }
+        });
     }
-
 }

@@ -1,4 +1,5 @@
-<merge xmlns:android="http://schemas.android.com/apk/res/android">
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
         android:id="@+id/final_data2"
@@ -197,39 +198,35 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="1"
-                    android:background="@drawable/my_button_bg" />
+                />
 
                 <Button
                     android:id="@+id/button_num2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="2"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="2"/>
 
                 <Button
                     android:id="@+id/button_num3"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="3"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="3" />
 
                 <Button
                     android:id="@+id/button_num4"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="4"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="4"/>
 
                 <Button
                     android:id="@+id/button_num5"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="5"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="5" />
             </LinearLayout>
 
             <LinearLayout
@@ -245,40 +242,35 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="6"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="6"/>
 
                 <Button
                     android:id="@+id/button_num7"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="7"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="7" />
 
                 <Button
                     android:id="@+id/button_num8"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="8"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="8" />
 
                 <Button
                     android:id="@+id/button_num9"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="9"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="9" />
 
                 <Button
                     android:id="@+id/button_num0"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="0"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="0"/>
             </LinearLayout>
 
             <LinearLayout
@@ -302,40 +294,35 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="\?"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="\?" />
 
                 <Button
                     android:id="@+id/button_sym2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="."
-                    android:background="@drawable/my_button_bg" />
+                    android:text="."/>
 
                 <Button
                     android:id="@+id/button_sym3"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text=","
-                    android:background="@drawable/my_button_bg" />
+                    android:text=","/>
 
                 <Button
                     android:id="@+id/button_sym4"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="_"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="#"/>
 
                 <Button
                     android:id="@+id/button_sym5"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="&amp;"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="&amp;" />
             </LinearLayout>
 
             <LinearLayout
@@ -351,48 +338,42 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="%"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="%" />
 
                 <Button
                     android:id="@+id/button_sym7"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="$"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="$" />
 
                 <Button
                     android:id="@+id/button_sym8"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="*"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="*" />
 
                 <Button
                     android:id="@+id/button_sym9"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="\@"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="\@" />
 
                 <Button
                     android:id="@+id/button_sym10"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="/"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="/"/>
 
                 <Button
                     android:id="@+id/button_sym11"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="!"
-                    android:background="@drawable/my_button_bg" />
+                    android:text="!" />
             </LinearLayout>
         </LinearLayout>
 
@@ -575,16 +556,6 @@
                 android:layout_marginTop="0dp">
 
                 <Button
-                    android:id="@+id/button_symbolPadSwitch"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:adjustViewBounds="true"
-                    android:layout_weight="1"
-                    android:textSize="8sp"
-                    android:background="@drawable/my_button_bg"
-                    android:text="123?" />
-
-                <Button
                     android:id="@+id/button_20"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -615,6 +586,17 @@
                     android:layout_weight="1"
                     android:text="v"
                     android:background="@drawable/my_button_bg" />
+
+                <Button
+                    android:id="@+id/button_symbolPadSwitch"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="1"
+                    android:textSize="8sp"
+                    app:backgroundTint="@color/black"
+                    android:text="123?" />
+
 
                 <Button
                     android:id="@+id/button_24"
@@ -665,7 +647,9 @@
                     android:drawableLeft="@drawable/baseline_keyboard_return_white_18"
                     android:drawableTint="@color/white"
                     android:gravity="center"
-                    android:background="@android:color/black"/>
+                    android:background="@android:color/black"
+                    app:backgroundTint="@color/black"
+                    />
 
                 <Button
                     android:id="@+id/button_primarySym1"
@@ -690,6 +674,7 @@
 
                 <Button
                     android:id="@+id/button_space"
+                    app:backgroundTint="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -728,6 +713,7 @@
 
                 <Button
                     android:id="@+id/button_delete"
+                    app:backgroundTint="@color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
